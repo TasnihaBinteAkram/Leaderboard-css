@@ -177,7 +177,15 @@ hr {
 /* Mobile devices */
 
 @media only screen and (max-width:688px) {
-    .players{
-        background-color: #ED6B4F;
+    .container{
+        width: 100%;
     }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
+    .player{
+        flex-direction: column;
+    }
+
 }
