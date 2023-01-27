@@ -182,10 +182,16 @@ hr {
     }
     .players{
         grid-template-columns: repeat(2, 1fr);
-        flex-direction: column;
     }
-    .player{
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog, .courses{
         flex-direction: column;
+
+    }
+    .course .course-img img{
+        width: 100%;
     }
 
 }
